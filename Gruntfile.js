@@ -135,11 +135,12 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
   grunt.loadTasks('tasks');
 
-  grunt.registerTask('default', ['availabletasks']);
-  grunt.registerTask('deleteAll', ['warn', 'deleteApps', 'deleteDevs', 'deleteProducts', 'deleteProxies', 'deleteFlowHooks', 'deleteSharedFlows', 'deleteTargetServers', 'deleteEnvKVM', 'deleteOrgKVM', 'deleteProxyKVM', 'deleteKeys', 'deleteReports']);
+  grunt.registerTask('default', [' ']);
   grunt.registerTask('exportAll', ['exportProxies', 'exportProducts', 'exportDevs', 'exportSharedFlows','exportApps', 'exportFlowHooks', 'exportTargetServers', 'exportOrgKVM','exportEnvKVM','exportProxyKVM', 'exportReports']);
   grunt.registerTask('importAll', ['importTargetServers', 'importProxies', 'importProducts', 'importDevs', 'importApps', 'importSharedFlows','importFlowHooks', 'importOrgKVM', 'importEnvKVM', 'importProxyKVM', 'importKeys', 'importReports']);
-  grunt.registerTask('tasks', ['availabletasks']);
+ grunt.registerTask('deleteAll', ['warn', 'deleteApps', 'deleteDevs', 'deleteProducts', 'deleteProxies', 'deleteFlowHooks', 'deleteSharedFlows', 'deleteTargetServers', 'deleteEnvKVM', 'deleteOrgKVM', 'deleteProxyKVM', 'deleteKeys', 'deleteReports']);
+ grunt.registerTask('tasks', ['availabletasks']);
+ 
   grunt.registerTask('warn', 'Display Warning', function() {
       var readline = require('readline');
       var rl = readline.createInterface({
