@@ -2,18 +2,18 @@ module.exports = {
 
 	from: {
 		version: '19.04',
-		url: 'https://api.enterprise.apigee.com',
-		userid: 'admin@google.com',
-		passwd: 'SuperSecret123',
+		url: 'https://login.apigee.com/login',
+		userid: 'gopiyanihiral@gmail.com',
+		passwd: 'Travel2018!',
 		org: 'org1',
 		env: 'test'
 	},
 	to: {
 		version: '19.04',
-		url: 'https://api.enterprise.apigee.com',
-		userid: 'admin@google.com',
-		passwd: 'SuperSecret123!9',
-		org: 'org2',
+		url: 'https://apigee.google.com/login',
+		userid: 'hiral@digitaldisruptionllc.com',
+		passwd: 'Travel2021!',
+		org: 'Apigee X',
 		env: 'test'
 	}
 } ;
