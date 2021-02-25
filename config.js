@@ -10,7 +10,7 @@ module.exports = {
 	},
 	to: {
 		version: '19.04',
-		url: 'https://apigee.google.com/login',
+		url: 'https://apigee.googleapis.com',
 		userid: 'hiral@digitaldisruptionllc.com',
 		passwd: 'Travel2021!',
 		org: 'Apigee X',
